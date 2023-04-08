@@ -1,0 +1,1271 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+                        /* Navigation Bar */
+.nav_bar {
+   
+    background-color: rgba(0, 0, 0, 0.849);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.nav_bar a {
+    display: none;
+    text-size-adjust: 100%;
+    font-size: smaller;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.61);
+    font-weight: 100;
+    
+}
+.navlogo ul li {
+    list-style: none;
+}
+
+.navlogo ul li a {
+    display: flex;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 20px;
+    
+}
+
+                            /* first iphone  */
+.iphone1 {
+    background-image: url(./images/small_img/iphone14_small.jpeg);
+    background-position: center;
+    background-size: 720px 540px;
+    /* width: 710px; */
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+    
+}
+.iphone1_info{
+    color: white;
+}
+.iphone1_info, .iphone2_info, .airpod_info{
+    text-align: center;
+    line-height: 35px;
+    padding: 5rem;
+    
+}
+.iphone1_info h1 , .iphone2_info h1, .airpod_info h1{
+    font-size: 30px;
+    font-weight: 600;
+    
+
+}
+.iphone1_info p, .iphone2_info p, .ultra p, .airpod_info p, .s8_info p, .watchSE_info p{
+    font-size: 18px;
+    font-weight: 100;
+    
+
+}
+.iphone1_info a, .iphone2_info a, .ultra a, .airpod_info a, .s8_info a, .watchSE_info a , .fitness_info a, .macBook_info a, .appleCard_info a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgba(58, 113, 216, 0.937);
+    padding-right: 1.5rem;
+    
+}
+.iphone1_info i, .iphone2_info i, .ultra i , .airpod_info i, .s8_info i, .watchSE_info i, .fitness_info i, .macBook_info i, .appleCard_info i {
+    font-size: smaller;
+    margin-left: 5px;
+    
+}
+
+                            /* second iphone */
+
+.iphone2 {
+    background-image: url(./images/small_img/iphone14_whitebg.jpeg);
+    background-size: 710px 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    /* width: 710px; */
+    height: 500px;
+    margin-top: 0.5rem; 
+         
+}     
+
+.iphone2_info {
+    padding: 3rem;
+}
+
+.iphone2_info span p{
+    color: gray;
+    font-size: 16px;
+    font-weight: 100;
+
+}
+
+                        /* iWatch */
+                            /* Ultra  */
+.watch_ultra {
+        background-image: url(./images/small_img/watchUltra_small.jpeg);
+        background-size: 750px 550px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        /* width: 100%; */
+        height: 515px;
+        margin-top: 0.7rem;
+}
+
+.ultra_info {
+        background-image: url(./logo/small_logo/Ultra_smalllogo.png);
+        background-repeat: no-repeat;
+        background-size: 8rem;
+        text-align: center;
+        background-position: center 3rem;
+        
+        
+        
+     }
+.ultra p{
+        padding-top: 7rem;
+        
+}
+.ultra a {
+    line-height: 2rem;
+        
+}
+                /* airpod  */
+.airpod {
+    background-image: url(./images/small_img/airpod_small.jpeg);
+    background-repeat: no-repeat;
+    background-size: 750px 550px;
+    background-position: center;
+    height:500px;
+    margin-top: 0.65rem;
+    background-position-y: bottom;
+
+    
+   
+}
+.airpod_info {
+    text-align: center;
+    padding-top: 3rem;
+
+}
+.airpod_info h1 {
+  font-weight: 500;
+  color: white;
+    
+}
+.airpod_info p{
+    color: white;
+    font-weight: 100;
+    
+}
+.airpod_info a {
+    position: inherit;
+   
+}
+
+        /* watch s8 */
+
+.s8 {
+    background-image: url(./images/small_img/s8small.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    background-size: 750px 550px;
+    height: 505px;
+    margin-top: 0.65rem;
+
+}
+
+.s8_logo {
+    background-image: url(./logo/small_logo/S8_smalllogo.png);
+    background-repeat: no-repeat;
+    background-position: center 3rem;
+    background-size: 8rem;
+
+}
+.s8_info  {
+    color: white;
+    text-align: center;
+    padding-top: 6.5rem;
+    line-height: 2rem;
+
+}
+                    /* SE */
+
+.watchSE {
+    background-image: url(./images/small_img/SE_small.jpeg);
+    background-position: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 700px 540px;
+    height: 500px;
+    margin-top: 0.65rem;
+}
+.watchSE_logo {
+    background-image: url(./logo/small_logo/SE_smalllogo.png);
+    background-repeat: no-repeat;
+    background-position: center 3rem;
+    background-size: 7rem;
+    height: 100px;
+}
+.watchSE_info {
+    text-align: center;
+    padding-top: 6rem;
+    line-height: 2rem;
+}
+
+
+                    /* fitness + */
+
+.fitness {
+    background-image: url(./images/small_img/fitness_small.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    background-size: 700px 540px;
+    height: 500px;
+    margin-top: 0.65rem;
+    
+
+}
+.fitness_logo {
+    background-image: url(./logo/small_logo/fitness_smalllogo.png);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    background-position:center 2.9rem;
+
+}
+                    
+.fitness_info  {
+    text-align: center;
+    padding-top: 5rem;
+}   
+.fitness_info p {
+    font-size: 18px;
+    
+}
+.fitness_info a {
+   line-height: 3rem;
+}
+.fitnessbottom_info {
+    padding-top: 295px;
+    color: gray;
+} 
+.fitnessbottom_info p {
+    font-size: 16px;
+}                
+                    /* Macbook air */
+.mac {
+    background-image: url(./images/small_img/macbookAir_small.png);
+    background-size: 700px 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    height: 500px;
+    margin-top: 0.65rem;
+
+}
+.macBook_logo {
+    background-image: url(./logo/small_logo/macbookAir_smalllogo.png);
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position: center 5rem;
+    height: 8rem;
+    
+}
+.macBook_info {
+    text-align: center;
+
+}
+.macBook_info h1 {
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.macBook_info a {
+    line-height: 6.5rem;
+}
+
+                    /* Apple Card */
+
+.card {
+    background-image: url(./images/small_img/appleCard_small.jpeg);
+    background-repeat: no-repeat;
+    background-size: 700px 540px;
+    background-position: center;
+    background-position-y: bottom;
+    height: 500px;
+    margin-top: 0.65rem;
+}
+.appleCard_logo {
+    background-image: url(./logo/small_logo/appleCard_smalllogo.png);
+    background-repeat: no-repeat;
+    background-size: 6rem;
+    height: 4rem;
+    background-position:center 2rem ;
+    
+
+}
+.appleCard_info {
+    text-align: center;
+    padding-top: 4.5rem;
+}
+.appleCard_info p  {
+    font-size: 18px;
+}
+.appleCard_info a {
+    line-height: 3rem;
+}
+                /* Apple Tv  */
+                /* badsisters */
+.thegreatestbeer, .raymond_ray {
+    display: none;
+}
+
+.badsisters {
+    background-image: url(./appleTv_Section/small_img/badsisters_small.jpeg);
+
+}
+.badsisters, .see, .fiveDays, .blackbird, .severance, .themorningshow, .luck, .sagofriends, .tedlasso, .sidney, .pumpkin{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 17rem;
+    height: 30rem;
+    margin-top: 0.7rem;
+  
+}
+
+.badsisters_logo, .see_logo, .fiveDays_logo, .blackbird_logo, .severance_logo, .themorningshow_logo, .luck_logo, .sagofriends_logo, .tedlasso_logo, .sidney_logo{
+    background-image: url(./appleTv_Section/small_logo/appletv_smalllogo.png);
+    background-repeat: no-repeat;
+    background-size: 5rem;
+    background-position: center 2rem;
+    
+}
+.badsisters_2logo {
+    background-image: url(./appleTv_Section/small_logo/badSisters_smalllogo.png);
+
+}
+
+.badsisters_2logo, .see_2logo, .fiveDays_2logo, .blackbird_2logo, .severance_2logo, .themorningshow_2logo, .luck_2logo, .sagofriends_2logo, .tedlasso_2logo, .sidney_2logo{
+    background-size: 14rem;
+    background-repeat: no-repeat;
+    background-position: center 5rem;
+    
+}
+.badsisters_info, .see_info, .fiveDays_info, .blackbird_info, .severance_info, .themorningshow_info, .luck_info, .sagofriends_info, .tedlasso_info, .sidney_info, .pumpkin_info {
+    color: white;
+    text-align: center;
+    padding-top: 22rem;
+    line-height: 1.5rem;
+}
+.badsisters_info h6, .see_info h6, .fiveDays_info h6, .blackbird_info h6, .severance_info h6, .themorningshow_info h6, .luck_info h6, .sagofriends_info h6, .tedlasso_info h6, .sidney_info h6, .pumpkin_info h6  {
+    font-size: 17px;
+    font-weight: 600;
+}
+.badsisters_info p, .see_info p, .fiveDays_info p, .blackbird_info p, .severance_info p, .themorningshow_info p, .luck_info p, .sagofriends_info p, .tedlasso_info p, .sidney_info p, .pumpkin_info p {
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.badsisters_info button, .see_info button, .fiveDays_info button, .blackbird_info button, .severance_info button, .themorningshow_info button, .luck_info button, .sagofriends_info button, .tedlasso_info button, .sidney_info button, .pumpkin_info button {
+    margin-top: 0.5rem;
+    border-radius: 2rem;
+    width: 9rem;
+    height: 3rem;
+}
+
+                            /* see  */
+
+.see {
+    background-image: url(./appleTv_Section/small_img/see_small.jpg);
+
+}
+.see_logo {
+    background-position: center 0.5rem;
+}
+.see_2logo {
+    background-image: url(./appleTv_Section/small_logo/see_smalllogo.png);
+    background-size: 6rem;
+    background-position: center 3.5rem;
+}
+
+                            /* five days at memorial */
+    
+.fiveDays {
+    background-image: url(./appleTv_Section/small_img/fivedays_small.jpg);
+}
+.fiveDays_logo, .blackbird_logo, .severance_logo, .themorningshow_logo, .luck, .sagofriends_logo, .tedlasso_logo, .sidney_logo{
+    background-position: center 1rem;
+}
+.fiveDays_2logo {
+    background-image: url(./appleTv_Section/small_logo/fivedays_smalllogo.png);
+
+}
+.fiveDays_2logo, .severance_2logo, .themorningshow_2logo, .luck_2logo, .sagofriends_2logo, .tedlasso_2logo, .sidney_2logo{
+    background-position: center 3.5rem;
+
+}
+.fiveDays_info, .blackbird_info, .severance_info, .luck_info, .sagofriends_info, .tedlasso_info, .sidney_info {
+    padding-top: 21rem;
+}
+
+                            /* blackbird */
+
+.blackbird {
+    background-image: url(./appleTv_Section/small_img/blackbird_small.jpg);
+}
+
+.blackbird_2logo {
+    background-image: url(./appleTv_Section/small_logo/blackbird_smalllogo.png);
+    background-position: center 3.5rem;
+    background-size: 10rem;
+}
+
+                            /* Severance */
+
+.severance {
+    background-image: url(./appleTv_Section/small_img/severance_small.jpg);
+  
+}                            
+
+.severance_2logo {
+    background-image: url(./appleTv_Section/small_logo/severance_smalllogo.png);
+    
+}
+
+
+                            /* themorningshow */
+
+.themorningshow {
+    background-image: url(./appleTv_Section/small_img/themorningshow_small.jpg);
+}                            
+
+.themorningshow_2logo {
+    background-image: url(./appleTv_Section/small_logo/themorningshow_smalllogo.png);
+    background-size: 11rem;
+}
+
+
+                            /* Luck */
+.luck {
+    background-image: url(./appleTv_Section/small_img/luck_small.jpg);
+    /* margin-top: -0.3rem; */
+}
+
+.luck_2logo {
+    background-image: url(./appleTv_Section/small_logo/luck_smalllogo.png);
+    background-size: 7rem;
+    background-position: center 4.5rem;
+}
+.luck_info{
+    line-height: 1.2rem;
+}
+                            /* Sago friends */
+.sagofriends {
+    background-image: url(./appleTv_Section/small_img/sagofriends_small.jpg);
+}
+
+/* .sagofriends_2logo {
+    background-image: url(./appleTv_Section/small_logo/sagofriends_smalllogo.png);
+    background-size: 9rem;
+} */
+.sagofriends {
+    display: none;
+}
+
+
+
+                            /* Ted lasso */
+.tedlasso {
+    background-image: url(./appleTv_Section/small_img/tedlasso_small.jpg);
+}
+
+.tedlasso_2logo {
+    background-image: url(./appleTv_Section/small_logo/tedlorasso_smalllogo.png);
+}
+                            /* Sidney */
+.sidney {
+    background-image: url(./appleTv_Section/small_img/sidney_small.jpg);
+}
+
+.sidney_2logo {
+    background-image: url(./appleTv_Section/small_logo/sidney_smalllogo.png);
+}
+.pumpkin {
+    background-image: url(./appleTv_Section/small_img/pumpkin_small.jpg);
+}
+
+.plus, .plus1, .plus2, .plus3, .plus4, .plus5, .plus6, .plus7, .plus8 {
+    display: none;
+}
+
+                                /* apple tv section slide  */
+
+.slideshow_container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.slides{
+    /* display: none; */
+    
+}
+.appleTv{vertical-align:  middle;}
+
+
+
+
+                                /* prev_next */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: gray;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+    right: 22.8%;
+    border-radius: 3px 0 0 3px;
+  }
+.prev{
+    left: 22.8%;
+}
+                                /* prev next hover */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}         
+.prev, .next {
+    display: none;
+}                   
+                                    /* slide dots */
+.dots {
+    text-align: center;
+    margin:0.5rem 0 2rem 0;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    display: inline-block;
+    background-color: rgba(63, 17, 17, 0.253);
+    border-radius: 50%;
+    transition: background-color 0.5s ease-in-out;
+
+  }
+  .active {
+    background-color: #717171;
+  }
+  .fade {
+    animation: fade 1.5s ease-out forwards;
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+  }
+  
+
+
+                                /* media query  */
+                                /* min-width: 734px to max-width: 1023px */
+@media  screen and (min-width: 734px ) and (max-width: 1024px ) {
+
+
+                    /* first iPhone */
+.iphone1 {
+    background-image: url(./images/medium_img/iphone14_medium.jpg);
+    background-size: 1024px 750px;
+    background-position: center;
+    /* width: 1024px; */
+    height: 750px;
+}   
+.iphone1_info, .iphone2_info{
+    line-height: 45px;
+    padding: 7rem;
+}
+.iphone1_info h1, .iphone2_info h1{
+    font-size: 45px;
+}   
+.iphone1_info p, .iphone2_info p, .ultra p {
+    font-size: 22px;
+}
+.iphone1_info a, .iphone2_info a, .ultra a {
+    font-size: 19px;
+}
+                    /* second iPhone */
+.iphone2 {
+    background-image: url(./images/medium_img/iphone14_whitemedium.jpg);
+    background-size: 1024px 750px;
+    /* width: 1024px; */
+    height: 750px;
+   
+}
+.iphone2_info {
+    padding: 3.5rem;
+    line-height: 2rem;
+}
+.iphone2_info p {
+    padding-top: 0.5rem;
+}
+.iphone2_info span p {
+    font-size: 20px;
+}
+
+                    /* iWatch */
+                        /* Ultra */
+.watch_ultra {
+    background-image: url(./images/medium_img/watchUltra_medium.jpg);
+    background-size: 1024px 650px;
+    /* width: 1024px; */
+    height: 650px;
+}    
+.ultra_info{
+    background-image: url(./logo/medium_logo/watchUltra_mediumlogo.png);
+    background-size: 10rem;
+    background-position: center 4rem;
+}
+.ultra p {
+    padding-top: 8.5rem;
+    
+}        
+.ultra a {
+    line-height: 3rem;
+
+}        
+                                    /* airpod + s8 */
+.airpod_s8, .SE_fitness, .macbook_card {
+    display: flex;
+    margin: 0 0.65rem 0 0.65rem;
+    gap: 0.65rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+                        /* airpod */
+.airpod {
+    background-image: url(./images/medium_img/airpod_medium.jpg);
+}                        
+
+.airpod_info h1{
+    font-weight: 600;
+}
+.airpod_info p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.airpod_info a {
+    padding-right: 0.8rem;
+}
+
+                        /* s8  */
+.s8 {
+    background-image: url(./images/medium_img/s8_medium.jpg);
+
+}
+.s8_logo {
+    background-image: url(./logo/medium_logo/s8_mediumlogo.png);
+    background-position: center;
+    background-size: 7rem;  
+
+}
+                        /* SE + fitness */
+.watchSE {
+    background-image: url(./images/medium_img/SE_medium.jpg);
+    
+}
+
+                        /* fitness */
+.fitness {
+    background-image: url(./images/medium_img/fitness_medium.jpg);
+    
+}
+.mac {
+    background-image: url(./images/medium_img/macbookAir_medium.png);
+}
+
+.card {
+    background-image: url(./images/medium_img/appleCard_medium.jpg);
+}
+.airpod, .s8, .watchSE, .fitness, .mac, .card {
+    background-position-y: bottom;
+    background-size: 515px ;
+    width: 410px;
+    height: 500px;
+    
+}
+
+                            /* Apple Tv  */
+
+                            /* the greatest beer */
+                            
+.thegreatestbeer, .raymond_ray, .badsisters, .tedlasso, .see, .luck, .severance, .fiveDays, .blackbird, .themorningshow, .sidney, .pumplin   {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin-left: -100px;
+    background-size: 700px 400px;
+    /* width: 900px; */
+    width: 700px;
+    height: 375px;
+    margin-top: 0.65rem;
+    
+    
+}
+.thegreatestbeer_info, .raymond_ray_info, .plus, .plus1, .plus2, .plus3, .plus4, .plus5, .plus6, .plus7, .plus8{
+    display: flex;
+    color: white;
+    padding: 300px 40px;
+    gap: 20px;
+    
+}
+.thegreatestbeer_info button, .raymond_ray_info button, .plus button, .plus1 button, .plus2 button, .plus3 button, .plus4 button, .plus5 button, .plus6 button, .plus7 button, .plus8 button {
+    margin-top: 0.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: 700;
+}
+.thegreatestbeer_info h6, .raymond_ray_info h6, .plus h6, .plus1 h6, .plus2 h6, .plus3 h6, .plus4 h6, .plus5 h6, .plus6 h6, .plus7 h6, .plus8 h6 {
+    font-size: 20px;
+    padding: 20px 2px 0px 0px;
+}
+.thegreatestbeer_info p, .raymond_ray_info p, .plus p, .plus1 p, .plus2 p, .plus3 p, .plus4 p, .plus5 p, .plus6 p, .plus7 p, .plus8 p {
+    font-size: 18px;
+    padding: 22px 10px 0px 0px;
+    
+}
+.thegreatestbeer {
+    background-image: url(./appleTv_Section/large_img/thegratestbeer_large.jpg);
+}
+                            /* raymond_ray */
+.raymond_ray {
+    background-image: url(./appleTv_Section/large_img/raymond&ray_large.jpg);
+}   
+                            /* bad sisters */
+.badsisters {
+    background-image: url(./appleTv_Section/large_img/badsisters_large.jpg);
+}
+.tedlasso {
+    background-image: url(./appleTv_Section/large_img/tedlasso_large.jpg);
+}
+.see {
+    background-image: url(./appleTv_Section/large_img/see_large.jpg);
+}
+.luck {
+    background-image: url(./appleTv_Section/large_img/luck_large.jpg);
+}
+.severance {
+    background-image: url(./appleTv_Section/large_img/severance_large.jpg);
+}
+.fiveDays {
+    background-image: url(./appleTv_Section/large_img/fivedays_large.jpg);
+}
+.blackbird {
+    background-image: url(./appleTv_Section/large_img/blackbird_large.jpg);
+}
+.themorningshow {
+    background-image: url(./appleTv_Section/large_img/themorningshow_large.jpg);
+}
+.sidney {
+    background-image: url(./appleTv_Section/large_img/sidney_large.jpg);
+}
+.pumpkin {
+    background-image: url(./appleTv_Section/large_img/pumpkin_large.jpg);
+}
+
+                /* display none  */
+.badsisters_2logo , .badsisters_logo, .luck_logo, .luck_2logo, .see_2logo, .see_logo
+, .severance_2logo, .severance_logo, .fiveDays_logo, .fiveDays_2logo, .blackbird_logo, .blackbird_2logo, .themorningshow_2logo, .themorningshow_logo, .sidney_2logo, .sidney_logo{
+    background-image: url(#);
+}
+.badsisters_info, .tedlasso_info, .see_info, .luck_info, .severance_info, .fiveDays_info, .blackbird_info, .themorningshow_info, .sidney_info, .sagofriends{
+    display: none;
+}
+                            
+}                                
+
+                            /* min-width: 1024 px - max-width: 2560px */
+@media screen and (min-width: 1024px) and (max-width: 2560px){
+
+                                /* navigation bar */
+.nav_bar a{
+    display: flex;
+   margin-left: 0.3%;
+   font-size: 12px;
+}
+
+                            /* first iphone  */
+.iphone1 {
+    background-image: url(./images/large_img/iphone14_large.jpg);
+
+}
+.iphone1, .iphone2{
+    background-size: 2800px 730px;
+    height: 730px;
+}
+.iphone1_info, .iphone2_info {
+    line-height: 50px;
+    padding-top: 100px;
+} 
+.iphone1_info h1, .iphone2_info h1 {
+    font-size: 55px;
+    font-weight: 600;
+}
+.iphone1_info p, .iphone2_info p, .ultra p {
+    font-size: 27px;
+}      
+.iphone1_info a, .iphone2_info a, .ultra a {
+    font-size: 21px;
+}   
+
+                            /* second iphone */
+
+.iphone2 {
+    background-image: url(./images/large_img/iphone14_whitelarge.jpg);
+
+}
+.iphone2_info span p {
+    font-size: 22px;
+}
+.iphone2_info {
+    padding-top: 80px;
+    line-height: 45px;
+}
+                            /*  iWatch */
+                            /* Ultra */
+.watch_ultra{
+    background-image: url(./images/large_img/watchUltra_large.jpg);
+    background-size: 2700px 700px;
+    height: 700px;
+}
+.ultra_info {
+    background-image: url(./logo/large_logo/Ultra_largelogo.png);
+    background-size: 12rem;
+    background-position: center 5rem;
+}
+.ultra p {
+    padding-top: 11rem;
+}
+.ultra a {
+    line-height: 3.5rem;
+}
+
+                        /* airpod + s8 */
+
+.airpod_s8, .SE_fitness, .macbook_card {
+    display: flex;
+    margin: 0 0.65rem 0 0.65rem;
+    gap: 0.5rem;
+}
+.airpod {
+    background-image: url(./images/large_img/airpod_large.jpg);
+}
+.airpod_info {
+    line-height: 39px;
+}
+
+.s8 {
+    background-image: url(./images/large_img/s8_large.jpg);
+}
+
+
+.watchSE {
+    background-image: url(./images/large_img/SE_large.jpg);
+}
+
+.fitness {
+    background-image: url(./images/large_img/fitness_large.jpg);
+}
+.fitnessbottom_info p {
+    padding-top: 70px;
+}
+
+.mac {
+    background-image: url(./images/large_img/macbookAir_large.png);
+
+}
+.card {
+    background-image: url(./images/large_img/appleCard_large.jpg);
+}
+.airpod, .s8, .watchSE, .fitness, .mac, .card {
+    background-position: center;
+    background-position-y: bottom;
+    background-size: 1270px 580px;
+    width: 1270px;
+    height: 580px;  
+} 
+
+                            /* apple Tv */
+                            
+.thegreatestbeer, .raymond_ray, .badsisters, .tedlasso, .see, .luck, .severance, .fiveDays, .blackbird, .themorningshow, .sidney, .pumplin   {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin-left: -300px;
+    background-size: 1100px 600px;
+    /* width: 900px; */
+    width: 1100px;
+    height: 700px;
+    margin-top: 0.65rem;
+    
+    
+    
+}
+.thegreatestbeer_info, .raymond_ray_info, .plus, .plus1, .plus2, .plus3, .plus4, .plus5, .plus6, .plus7, .plus8{
+    display: flex;
+    color: white;
+    padding: 550px 40px 0px 50px;
+    gap: 20px;
+    
+}
+.thegreatestbeer_info button, .raymond_ray_info button, .plus button, .plus1 button, .plus2 button, .plus3 button, .plus4 button, .plus5 button, .plus6 button, .plus7 button, .plus8 button {
+    margin-top: 0.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: 700;
+}
+.thegreatestbeer_info h6, .raymond_ray_info h6, .plus h6, .plus1 h6, .plus2 h6, .plus3 h6, .plus4 h6, .plus5 h6, .plus6 h6, .plus7 h6, .plus8 h6 {
+    font-size: 20px;
+    padding: 20px 2px 0px 0px;
+}
+.thegreatestbeer_info p, .raymond_ray_info p, .plus p, .plus1 p, .plus2 p, .plus3 p, .plus4 p, .plus5 p, .plus6 p, .plus7 p, .plus8 p {
+    font-size: 18px;
+    padding: 22px 10px 0px 0px;
+    
+}
+.thegreatestbeer {
+    background-image: url(./appleTv_Section/large_img/thegratestbeer_large.jpg);
+}
+                            /* raymond_ray */
+.raymond_ray {
+    background-image: url(./appleTv_Section/large_img/raymond&ray_large.jpg);
+}   
+                            /* bad sisters */
+.badsisters {
+    background-image: url(./appleTv_Section/large_img/badsisters_large.jpg);
+}
+.tedlasso {
+    background-image: url(./appleTv_Section/large_img/tedlasso_large.jpg);
+}
+.see {
+    background-image: url(./appleTv_Section/large_img/see_large.jpg);
+}
+.luck {
+    background-image: url(./appleTv_Section/large_img/luck_large.jpg);
+}
+.severance {
+    background-image: url(./appleTv_Section/large_img/severance_large.jpg);
+}
+.fiveDays {
+    background-image: url(./appleTv_Section/large_img/fivedays_large.jpg);
+}
+.blackbird {
+    background-image: url(./appleTv_Section/large_img/blackbird_large.jpg);
+}
+.themorningshow {
+    background-image: url(./appleTv_Section/large_img/themorningshow_large.jpg);
+}
+.sidney {
+    background-image: url(./appleTv_Section/large_img/sidney_large.jpg);
+}
+.pumpkin {
+    background-image: url(./appleTv_Section/large_img/pumpkin_large.jpg);
+}
+
+
+                /* display none  */
+.badsisters_2logo , .badsisters_logo, .luck_logo, .luck_2logo, .see_2logo, .see_logo
+,  .tedlasso_2logo, .tedlasso_logo, .severance_2logo, .severance_logo, .fiveDays_logo, .fiveDays_2logo, .blackbird_logo, .blackbird_2logo, .themorningshow_2logo, .themorningshow_logo, .sidney_2logo, .sidney_logo{
+    background-image: url(#);
+}
+.badsisters_info, .tedlasso_info, .see_info, .luck_info, .severance_info, .fiveDays_info, .blackbird_info, .themorningshow_info, .sidney_info, .sagofriends{
+    display: none;
+}          
+.next, .prev {
+    display: none;
+}                       
+                                    /* slide dots */
+.dots {
+    text-align: center;
+    margin:0.5rem 0 2rem 0;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 10px 5px;
+    display: inline-block;
+    background-color: rgba(63, 17, 17, 0.253);
+    border-radius: 50%;
+    transition: background-color 0.5s ease-in-out;
+
+  }
+
+}
+
+                                /* min width: 2561 px */
+@media screen and (min-width: 2561px) {
+ 
+                                /* navigation bar */
+.nav_bar a{
+   display: flex;
+   margin-left: -0.3%;
+   font-size: 12px;
+}
+
+                            /* first iphone  */
+.iphone1 {
+    background-image: url(./images/X-large/iphone14_Xlarge.jpg);
+
+}
+.iphone1, .iphone2{
+    background-size: 2550px 730px;
+    height: 730px;
+}
+.iphone1_info, .iphone2_info {
+    line-height: 50px;
+    padding-top: 100px;
+} 
+.iphone1_info h1, .iphone2_info h1 {
+    font-size: 55px;
+    font-weight: 600;
+}
+.iphone1_info p, .iphone2_info p, .ultra p {
+    font-size: 27px;
+}      
+.iphone1_info a, .iphone2_info a, .ultra a {
+    font-size: 21px;
+}   
+
+                            /* second iphone */
+
+.iphone2 {
+    background-image: url(./images/X-large/iphone14_whiteXlarge.jpg);
+
+}
+.iphone2_info span p {
+    font-size: 22px;
+}
+.iphone2_info {
+    padding-top: 80px;
+    line-height: 45px;
+}
+                            /*  iWatch */
+                            /* Ultra */
+.watch_ultra{
+    background-image: url(./images/X-large/watchUltra_Xlarge.jpg);
+    background-size: 2550px 700px;
+    height: 700px;
+}
+.ultra_info {
+    background-image: url(./logo/large_logo/Ultra_largelogo.png);
+    background-size: 12rem;
+    background-position: center 5rem;
+}
+.ultra p {
+    padding-top: 11rem;
+}
+.ultra a {
+    line-height: 3.5rem;
+}
+
+                        /* airpod + s8 */
+
+.airpod_s8, .SE_fitness, .macbook_card {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 0.65rem 0 0.65rem;
+    gap: 7px;
+    justify-content: center;
+}
+.airpod {
+    background-image: url(./images/large_img/airpod_large.jpg);
+}
+.airpod_info {
+    line-height: 39px;
+}
+
+.s8 {
+    background-image: url(./images/large_img/s8_large.jpg);
+
+}
+
+
+.watchSE {
+    background-image: url(./images/large_img/SE_large.jpg);
+}
+
+.fitness {
+    background-image: url(./images/large_img/fitness_large.jpg);
+}
+.fitnessbottom_info p {
+    padding-top: 70px;
+}
+
+.mac {
+    background-image: url(./images/large_img/macbookAir_large.png);
+
+}
+.card {
+    background-image: url(./images/large_img/appleCard_large.jpg);
+}
+.airpod, .s8, .watchSE, .fitness, .mac, .card {
+    background-position: center;
+    background-position-y: bottom;
+    background-size: 1272px 580px;
+    width: 1272px;
+    height: 580px;  
+    
+} 
+
+.airpod_s8, .SE_fitness, .macbook_card  {
+    padding: 5px 5px;
+}
+
+                                    /* apple Tv */
+                            
+.thegreatestbeer, .raymond_ray, .badsisters, .tedlasso, .see, .luck, .severance, .fiveDays, .blackbird, .themorningshow, .sidney, .pumplin   {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin-left: -750px;
+    background-size: 2000px 1000px;
+    /* width: 900px; */
+    width: 2000px;
+    height: 1000px;
+    margin-top: 0.65rem;
+    
+    
+    
+}
+.thegreatestbeer_info, .raymond_ray_info, .plus, .plus1, .plus2, .plus3, .plus4, .plus5, .plus6, .plus7, .plus8{
+    display: flex;
+    color: white;
+    padding: 850px 40px 0px 100px;
+    gap: 20px;
+    
+}
+.thegreatestbeer_info button, .raymond_ray_info button, .plus button, .plus1 button, .plus2 button, .plus3 button, .plus4 button, .plus5 button, .plus6 button, .plus7 button, .plus8 button {
+    margin-top: 0.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    width: 13rem;
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: larger;
+}
+.thegreatestbeer_info h6, .raymond_ray_info h6, .plus h6, .plus1 h6, .plus2 h6, .plus3 h6, .plus4 h6, .plus5 h6, .plus6 h6, .plus7 h6, .plus8 h6 {
+    font-size: 30px;
+    padding: 20px 2px 0px 0px;
+}
+.thegreatestbeer_info p, .raymond_ray_info p, .plus p, .plus1 p .plus2 p, .plus3 p, .plus4 p, .plus5 p, .plus6 p, .plus7 p, .plus8 p {
+    font-size: 28px;
+    padding: 22px 10px 0px 0px;
+    
+}
+.thegreatestbeer {
+    background-image: url(./appleTv_Section/large_img/thegratestbeer_large.jpg);
+}
+                            /* raymond_ray */
+.raymond_ray {
+    background-image: url(./appleTv_Section/large_img/raymond&ray_large.jpg);
+}   
+                            /* bad sisters */
+.badsisters {
+    background-image: url(./appleTv_Section/large_img/badsisters_large.jpg);
+}
+.tedlasso {
+    background-image: url(./appleTv_Section/large_img/tedlasso_large.jpg);
+}
+.see {
+    background-image: url(./appleTv_Section/large_img/see_large.jpg);
+}
+.luck {
+    background-image: url(./appleTv_Section/large_img/luck_large.jpg);
+}
+.severance {
+    background-image: url(./appleTv_Section/large_img/severance_large.jpg);
+}
+.fiveDays {
+    background-image: url(./appleTv_Section/large_img/fivedays_large.jpg);
+}
+.blackbird {
+    background-image: url(./appleTv_Section/large_img/blackbird_large.jpg);
+}
+.themorningshow {
+    background-image: url(./appleTv_Section/large_img/themorningshow_large.jpg);
+}
+.sidney {
+    background-image: url(./appleTv_Section/large_img/sidney_large.jpg);
+}
+.pumpkin {
+    background-image: url(./appleTv_Section/large_img/pumpkin_large.jpg);
+}
+
+                /* display none  */
+.badsisters_2logo , .badsisters_logo, .luck_logo, .luck_2logo, .see_2logo, .see_logo
+, .tedlasso_2logo, .tedlasso_logo, .severance_2logo, .severance_logo, .fiveDays_logo, .fiveDays_2logo, .blackbird_logo, .blackbird_2logo, .themorningshow_2logo, .themorningshow_logo, .sidney_2logo, .sidney_logo{
+    background-image: url(#);
+}
+.badsisters_info, .tedlasso_info, .see_info, .luck_info, .severance_info, .fiveDays_info, .blackbird_info, .themorningshow_info, .sidney_info, .sagofriends{
+    display: none;
+}                        
+.next, .prev {
+    display: none;
+}                
+                                    /* slide dots */
+.dots {
+    text-align: center;
+    margin:0.5rem 0 2rem 0;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 10px 5px ;
+    display: inline-block;
+    background-color: rgba(63, 17, 17, 0.253);
+    border-radius: 50%;
+    transition: background-color 0.5s ease-in-out;
+
+  }
+  .active {
+    background-color: #717171;
+  }
+  .fade {
+    animation: fade 1.5s ease-in-out forwards;
+
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+  }
+
+}                             
